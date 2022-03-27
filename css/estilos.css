@@ -1,4 +1,4 @@
-h1{color:purple;}
+h1{color:red;}
 
 p{
     color:green;
@@ -27,7 +27,7 @@ body{
 
 #menu{
     
-    background-color: #000;
+    background-color: red;
     width: 100%;
     position: fixed;
 }
