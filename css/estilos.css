@@ -56,6 +56,12 @@ display: inline-block;
 }
 
 
+
+.contenedor{
+    width: 1500px;
+    margin:auto
+}
+
 .titulo{
     padding: 10px;
     float:left;
@@ -64,6 +70,10 @@ display: inline-block;
 .contenido{
     padding: 20px;
 }
+
+
+
+
 
 
 #selector ol{
