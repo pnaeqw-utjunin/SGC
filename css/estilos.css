@@ -9,7 +9,7 @@ body{
 
 #menu{
     
-    background-color: red;
+    background-color: rgb(173, 173, 173);
     width: 100%;
     position: fixed;
 }
@@ -73,37 +73,6 @@ display: inline-block;
     
 }
 
-
-#niveluno li {
-
-    
-    color:black;
-    font-size: 1em;
-    padding: 10px;
-    
-    display:block;
-    border-top-style:dotted;
-    border-width: 1px;
-    border-right-style:none;
-    border-left-style:none;
-    border-color: #7a12cf;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    
-
-}
-
-
-
-#niveldos summary p{
-
-    color:black;
-    font-size: 1em;
-    padding: 0;
-    line-height: 0px;
-    text-decoration: none;
-}
 
 
 #segundonivel summary p{
