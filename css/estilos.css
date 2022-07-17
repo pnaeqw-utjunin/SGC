@@ -9,7 +9,7 @@ body{
 
 #menu{
     
-    background-color: rgb(173, 173, 173);
+    background-color: rgb(54, 54, 54);
     width: 100%;
     position: fixed;
 }
@@ -74,13 +74,23 @@ display: inline-block;
 }
 
 
+#primernivel {
+
+    text-decoration: none;
+    color: black;
+    font-size: 0.9em;
+    text-align: justify;
+    line-height: 20px;
+    
+    
+}
+
 
 #segundonivel summary p{
 
     color:black;
     font-size: 0.9em;
-    padding: 0;
-    padding-left: 5px;
+    padding: 0px;
 
 }
 
@@ -97,7 +107,7 @@ display: inline-block;
     border-color: #053f0f;
     display: flex;
     align-items: center;
-    line-height: 25px;
+    line-height: 20px;
     text-align: justify;
     width: 100%;
     padding: 0px;
@@ -105,8 +115,6 @@ display: inline-block;
     display: inline-block; 
 
 }
-
-
 
 
 #tercernivel summary {
