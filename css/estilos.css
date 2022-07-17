@@ -1,14 +1,3 @@
-h1{color:red;}
-
-p{
-    color:green;
-font-size: 1.4em;
-}
-
-#primer{color:blue;}
-#segundo{color:purple;}
-
-.subtitulo{color:salmon}
 
 
 body{
@@ -17,13 +6,6 @@ body{
     font-size: 1em;
 }
 
-#texto{
-    font-family: 'helvetica';
-    font-size: 1em;
-    text-align: justify;
-    line-height: 25px;
-
-}
 
 #menu{
     
@@ -58,18 +40,163 @@ display: inline-block;
 
 
 .contenedor{
-    width: 1500px;
+    width: 750px;
     margin:auto
 }
 
-.titulo{
-    padding: 10px;
-    float:left;
+
+
+
+
+
+#segmento summary{
+    color:green;
+    font-weight: 545;
+    display:block;
+    padding: 15px 15px;
+    border-top-style:dotted;
+    border-width: 1px;
+    border-right-style:none;
+    border-left-style:none;
+    border-color: #053f0f;
+    
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+        
 }
 
-.contenido{
-    padding: 20px;
+
+
+#segmento summary:hover{
+    background-color: #e6e6e6;
+    
 }
+
+
+#niveluno li {
+
+    
+    color:black;
+    font-size: 1em;
+    padding: 10px;
+    
+    display:block;
+    border-top-style:dotted;
+    border-width: 1px;
+    border-right-style:none;
+    border-left-style:none;
+    border-color: #7a12cf;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+
+
+#niveldos summary p{
+
+    color:black;
+    font-size: 1em;
+    padding: 0;
+    line-height: 0px;
+    text-decoration: none;
+}
+
+
+#segundonivel summary p{
+
+    color:black;
+    font-size: 0.9em;
+    padding: 0;
+    padding-left: 5px;
+
+}
+
+#segundonivel li {
+
+    color:black;
+    font-size: 0.9em;
+    
+    text-decoration: none;
+    border-top-style:dotted;
+    border-width: 1px;
+    border-right-style:none;
+    border-left-style:none;
+    border-color: #053f0f;
+    display: flex;
+    align-items: center;
+    line-height: 25px;
+    text-align: justify;
+    width: 100%;
+    padding: 0px;
+
+    display: inline-block; 
+
+}
+
+
+
+
+#tercernivel summary {
+
+    background-color: #ffe7e7;
+   
+
+}
+
+#tercernivel li{
+
+    color:black;
+    font-size: 0.9em;
+    display:block;
+    text-decoration: none;
+    border-top-style:dotted;
+    border-width: 1px;
+    border-right-style:none;
+    border-left-style:none;
+    border-color: #053f0f;
+    display: flex;
+    align-items: center;
+
+}
+
+#tercernivel li a{
+
+    color:black;
+    font-size: 1em;
+    display:block;
+    width: 100%;
+    
+
+}
+
+
+#tercernivel li a:hover{
+
+    background-color: #e6e6e6;
+
+}
+
+
+#cuartonivel li{
+
+    color:black;
+    font-size: 0.9em;
+    display:block;
+    text-decoration: none;
+    border-top-style:dotted;
+    border-width: 1px;
+    border-right-style:none;
+    border-left-style:none;
+    border-color: #053f0f;
+    display: flex;
+    align-items: center;
+
+}
+
 
 
 
@@ -114,19 +241,6 @@ border-bottom: dotted;border-width: 1px;
 }
 
 
-#segmento summary{
-    color:green;
-    font-weight: 545;
-    display:block;
-    padding: 15px 30px;
-    border-top-style:solid;border-width: 1px;
-    border-right-style:none;
-    border-left-style:none;
-    border-color: #c4c4c4;
-    width: 90%;
-    text-decoration: none;
-
-}
 
 
 #segmento2 summary{
@@ -159,27 +273,3 @@ border-bottom: dotted;border-width: 1px;
     vertical-align: middle; 
 }
 
-#directorio{
-background-color: white;
-text-align: left;
-border-collapse: collapse;
-width: 40%;
-}
-
-#directorio th, td{
-padding:8px;
-border: solid 1px rgb(180, 178, 178);
-}
-
-#directorio thead{
-    background-color:#F4F4F4;
-    color:black;
-}
-
-#directorio tr:hover{
-    background-color:#F8F8F8;
-}
-
-#audio{
-    display: none
-    }
