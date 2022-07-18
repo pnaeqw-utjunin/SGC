@@ -74,6 +74,30 @@ display: inline-block;
 }
 
 
+#enlaces li {
+
+    
+    height: 50px;
+    display: block;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+#enlaces p{
+
+    color:red;
+}
+
+#enlaces a {
+
+    text-decoration: none;
+    height: 50px;    
+    
+}
+
+
 #primernivel {
 
     text-decoration: none;
@@ -135,8 +159,7 @@ display: inline-block;
     border-right-style:none;
     border-left-style:none;
     border-color: #053f0f;
-    display: flex;
-    align-items: center;
+    
 
 }
 
@@ -250,3 +273,6 @@ border-bottom: dotted;border-width: 1px;
     vertical-align: middle; 
 }
 
+table,td {
+	border: 1px solid black;
+}
