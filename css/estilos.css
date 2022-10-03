@@ -50,7 +50,7 @@ display: inline-block;
 
 
 #segmento summary{
-    color:green;
+    color:rgb(2, 76, 136);
     font-weight: 545;
     display:block;
     padding: 15px 15px;
@@ -58,7 +58,7 @@ display: inline-block;
     border-width: 1px;
     border-right-style:none;
     border-left-style:none;
-    border-color: #053f0f;
+    border-color: #020091;
     
     text-decoration: none;
     display: flex;
