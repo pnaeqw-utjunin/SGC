@@ -41,7 +41,8 @@ display: inline-block;
 
 .contenedor{
     width: 750px;
-    margin:auto
+    margin:auto;
+    
 }
 
 
@@ -100,7 +101,7 @@ display: inline-block;
 
 #primernivel {
 
-    text-decoration: none;
+    list-style: none;
     color: black;
     font-size: 0.9em;
     text-align: justify;
@@ -110,11 +111,13 @@ display: inline-block;
 }
 
 
-#segundonivel summary p{
+
+#segundonivel summary {
 
     color:black;
     font-size: 0.9em;
     padding: 0px;
+    line-height: 40px;
 
 }
 
@@ -144,6 +147,7 @@ display: inline-block;
 #tercernivel summary {
 
     background-color: #ffe7e7;
+    line-height: 40px;
    
 
 }
