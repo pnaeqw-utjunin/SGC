@@ -245,9 +245,8 @@ display: inline-block;
 
 #selector ol{
         list-style: none;
-        margin: 0;
-        padding: 0;
-        margin-left: 20px;
+        
+        
         
 }
 
@@ -260,10 +259,8 @@ display: inline-block;
     border-right-style:none;
     border-left-style:none;
     border-color: #999999;
-    width: 90%;
     text-decoration: none;
-    margin-left: 20px;
-    
+        
 }
 
 #selectorfin a{
@@ -276,15 +273,12 @@ border-bottom: dotted;border-width: 1px;
 }
 
 
-#selector1 ol li a{
-    margin-left: 50px;  
-}
 
 
 
 
 #segmento2 summary{
-    color:black;
+    color:rgb(3, 102, 33);
     
     font-size: 0.9em;
     display:block;
@@ -293,16 +287,16 @@ border-bottom: dotted;border-width: 1px;
     border-right-style:none;
     border-left-style:none;
     border-color: #c4c4c4;
-    width: 90%;
     text-decoration: none;
-    margin-left: 10px;
+    
     
 
 }
 
 
-#selector_caduco a{
-    background-color: #f59f9f;
+#selector_caduco span{
+    color:#aaaaaa;
+    
     }
 
 #selector ol li img{
